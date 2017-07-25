@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>MongoDB</Name>
+  <Description>
+    Installs a small python base webserver which allows a connection to mongodb
+  </Description>
+  <Registry>https://hub.docker.com/_/mongo/</Registry>
+  <Repository>mongo</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5000</HostPort>
+        <ContainerPort>5000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/mongodb/</HostDir>
+      <ContainerDir>/data/db</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <Icon>https://raw.githubusercontent.com/jason-bean/docker-templates/master/jasonbean-repo/mongo.sh-600x600.png</Icon>
+  <Beta>False</Beta>
+  <Category>Network:Other</Category>
+  <Date>2017-02-15</Date>
+  <Support>http://lime-technology.com/forum/index.php?topic=56654.0</Support>
+</Container>
