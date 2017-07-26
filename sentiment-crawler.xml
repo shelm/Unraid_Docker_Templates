@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>MongoDB</Name>
+  <Name>SentimentCrawler</Name>
   <Description>
     Installs a small python base webserver which allows a connection to mongodb
   </Description>
-  <Registry>https://hub.docker.com/r/shelm/sentiment_test/</Registry>
-  <Repository>shelm/sentiment_test</Repository>
+  <Registry>https://hub.docker.com/r/shelm/sentiment-crawler</Registry>
+  <Repository>shelm/sentiment-crawler</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
@@ -19,17 +19,11 @@
       </Port>
     </Publish>
   </Networking>
-  <Data>
-    <Volume>
-      <HostDir>/mnt/user/appdata/mongodb/</HostDir>
-      <ContainerDir>/data/db</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
+  <Data/>
   <Version></Version>
   <Icon>https://hcm-lab.de/git/dominik/unraid_docker_templates/raw/master/img/flask.png</Icon>
   <Beta>False</Beta>
   <Category>Network:Other</Category>
   <Date>2017-02-15</Date>
-  <Support>http://lime-technology.com/forum/index.php?topic=56654.0</Support>
+  <Support>schiller@hcm-lab.de</Support>
 </Container>
