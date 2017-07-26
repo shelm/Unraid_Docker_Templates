@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>WakeOnLan</Name>
+  <Description>
+    Starts a small webserver which enables to wake pcs over a webinterface
+  </Description>
+  <Registry>https://hub.docker.com/r/shelm/wol_server</Registry>
+  <Repository>shelm/wol_server</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5001</HostPort>
+        <ContainerPort>5001</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Version></Version>
+  <Icon>https://raw.githubusercontent.com/shelm/Unraid_Docker_Templates/master/img/wol_server.png</Icon>
+  <Beta>False</Beta>
+  <Category>Network:Other</Category>
+  <Date>2017-07-26</Date>
+  <Support>schiller@hcm-lab.de</Support>
+</Container>
