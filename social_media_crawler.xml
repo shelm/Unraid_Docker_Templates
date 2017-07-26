@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>SentimentCrawler</Name>
+  <Name>SocialMediaCrawler<</Name>
   <Description>
     Installs a small python base webserver which allows a connection to mongodb
   </Description>
-  <Registry>https://hub.docker.com/r/shelm/sentiment-crawler</Registry>
-  <Repository>shelm/sentiment-crawler</Repository>
+  <Registry>https://hub.docker.com/r/shelm/social_media_crawler</Registry>
+
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
