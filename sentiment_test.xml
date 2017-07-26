@@ -4,8 +4,8 @@
   <Description>
     Installs a small python base webserver which allows a connection to mongodb
   </Description>
-  <Registry>https://hub.docker.com/_/mongo/</Registry>
-  <Repository>mongo</Repository>
+  <Registry>https://hub.docker.com/r/shelm/sentiment_test/</Registry>
+  <Repository>sentiment_test/</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
