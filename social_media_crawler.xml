@@ -5,7 +5,7 @@
     Installs a small python base webserver which allows a connection to mongodb
   </Description>
   <Registry>https://hub.docker.com/r/shelm/social_media_crawler</Registry>
-
+  <Repository>shelm/social_media_crawler<</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
