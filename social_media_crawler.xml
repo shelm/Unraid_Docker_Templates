@@ -21,7 +21,7 @@
   </Networking>
   <Data/>
   <Version></Version>
-  <Icon>https://hcm-lab.de/git/dominik/unraid_docker_templates/raw/master/img/social_media_crawler.png</Icon>
+  <Icon>https://raw.githubusercontent.com/shelm/Unraid_Docker_Templates/master/img/social_media_crawler.png</Icon>
   <Beta>False</Beta>
   <Category>Network:Other</Category>
   <Date>2017-02-15</Date>
