@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>SocialMediaCrawler<</Name>
+  <Name>SocialMediaCrawler</Name>
   <Description>
     Installs a small python base webserver which allows a connection to mongodb
   </Description>
