@@ -5,7 +5,7 @@
     Installs a small python base webserver which allows a connection to mongodb
   </Description>
   <Registry>https://hub.docker.com/r/shelm/sentiment_test/</Registry>
-  <Repository>shelm/sentiment_test/</Repository>
+  <Repository>shelm/sentiment_test</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
