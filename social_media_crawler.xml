@@ -17,6 +17,20 @@
         <ContainerPort>5000</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
+	  <Variable>
+		<Name>DB_IP</Name>
+		<Key>IP</Key>
+		<Value>137.250.171.5</Value>
+	  </Variable>
+	  <Variable>
+		<Name>DB_Port</Name>
+		<Key>PORT</Key>
+		<Value>27017</Value>
+	  </Variable><Variable>
+		<Name>DB_NAME</Name>
+		<Key>NAME</Key>
+		<Value>nlp-corpus</Value>
+	  </Variable>
     </Publish>
   </Networking>
   <Data/>
