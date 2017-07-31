@@ -32,5 +32,5 @@
   Default="mydb"
   Description="The name of the database the crawler should connect to."
   Required="tru">blub</config>
-</Container>
   <Support>schiller@hcm-lab.de</Support>
+</Container>
