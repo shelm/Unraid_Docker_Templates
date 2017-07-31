@@ -10,18 +10,15 @@
   <Privileged>false</Privileged>
   <Environment>
    <Variable>
-		<Name>DB_IP</Name>
-		<Key>IP</Key>
+		<Name>IP</Name>
 		<Value>137.250.171.5</Value>
 	  </Variable>
 	  <Variable>
-		<Name>DB_Port</Name>
-		<Key>PORT</Key>
+		<Name>PORT</Name>
 		<Value>27017</Value>
 	  </Variable><Variable>
-		<Name>DB_PORT</Name>
-		<Key>PORT</Key>
-		<Value>27017</Value>
+		<Name>NAME</Name>
+		<Value>nlp-corpus</Value>
 	  </Variable>
   </Environment>
   <Networking>
