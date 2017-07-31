@@ -19,18 +19,27 @@
       </Port>
     </Publish>
   </Networking>
+  <Environment>
+  <Variable>
+		<Name>DB_IP</Name>
+		<Key>IP</Key>
+		<Value>137.250.171.5</Value>
+	  </Variable>
+	  <Variable>
+		<Name>DB_Port</Name>
+		<Key>PORT</Key>
+		<Value>27017</Value>
+	  </Variable><Variable>
+		<Name>DB_PORT</Name>
+		<Key>PORT</Key>
+		<Value>27017</Value>
+	  </Variable>
+  </Environment>
   <Data/>
   <Version></Version>
   <Icon>https://raw.githubusercontent.com/shelm/Unraid_Docker_Templates/master/img/social_media_crawler.png</Icon>
   <Beta>False</Beta>
   <Category>Network:Other</Category>
   <Date>2017-02-15</Date>
-  <config 
-  Type="Variable"
-  NAME="DB_NAME"
-  Target="NAME"
-  Default="mydb"
-  Description="The name of the database the crawler should connect to."
-  Required="tru">blub</config>
   <Support>schiller@hcm-lab.de</Support>
 </Container>
