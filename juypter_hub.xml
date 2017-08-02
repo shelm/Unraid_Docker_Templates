@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>JupyterHub</Name>
+  <Description>
+  </Description>
+  <Registry>https://hub.docker.com/r/jupyterhub/jupyterhub</Registry>
+  <Repository>jupyterhub/jupyterhub</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8000</HostPort>
+        <ContainerPort>8000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Version></Version>
+  <Icon>https://raw.githubusercontent.com/shelm/Unraid_Docker_Templates/master/img/jupyter.png</Icon>
+  <Beta>False</Beta>
+  <Category>Network:Other</Category>
+  <Date>2017-08-02</Date>
+  <Support>schiller@hcm-lab.de</Support>
+</Container>
