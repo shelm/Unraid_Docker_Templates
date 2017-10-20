@@ -4,8 +4,8 @@
   <Description>
     Installs a small python base webserver which allows a connection to mongodb
   </Description>
-  <Registry>https://hub.docker.com/r/shelm/social_media_crawler</Registry>
-  <Repository>shelm/social_media_crawler</Repository>
+  <Registry>https://hub.docker.com/r/shelm/nova</Registry>
+  <Repository>shelm/nova</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
@@ -18,15 +18,15 @@
 		<Value>27017</Value>
 	  </Variable><Variable>
 		<Name>NAME</Name>
-		<Value>nlp-corpus</Value>
+		<Value>Nova</Value>
 	  </Variable>
   </Environment>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>5000</HostPort>
-        <ContainerPort>5000</ContainerPort>
+        <HostPort>27017</HostPort>
+        <ContainerPort>37317</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
