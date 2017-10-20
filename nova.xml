@@ -15,7 +15,7 @@
     </Variable>
     <Variable>
     <Name>MONGO_INITDB_ROOT_PASSWORD</Name>
-    <Value>PASSWORD/Value>
+    <Value>PASSWORD</Value>
     </Variable>
   </Environment>
   <Networking>
