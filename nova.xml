@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>SocialMediaCrawler</Name>
+  <Description>
+    Installs a small python base webserver which allows a connection to mongodb
+  </Description>
+  <Registry>https://hub.docker.com/r/shelm/social_media_crawler</Registry>
+  <Repository>shelm/social_media_crawler</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+   <Variable>
+		<Name>IP</Name>
+		<Value>137.250.171.5</Value>
+	  </Variable>
+	  <Variable>
+		<Name>PORT</Name>
+		<Value>27017</Value>
+	  </Variable><Variable>
+		<Name>NAME</Name>
+		<Value>nlp-corpus</Value>
+	  </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5000</HostPort>
+        <ContainerPort>5000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Version></Version>
+  <Icon>https://raw.githubusercontent.com/shelm/Unraid_Docker_Templates/master/img/nova.png</Icon>
+  <Beta>False</Beta>
+  <Category>Network:Other</Category>
+  <Date>2017-02-15</Date>
+  <Support>schiller@hcm-lab.de</Support>
+</Container>
